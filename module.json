@@ -1,0 +1,74 @@
+{
+    "id": "shotgun-fantasy-expansion-module",
+    "name": "shotgun-fantasy-expansion-module",
+    "title": "Shotgun Fantasy Expansion Module",
+    "description": "Shotgun Fantasy is the isekai supplement for Everyday Heroes, bringing magic, spells, and fantasy to modern adventure.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "SigTrent Games",
+            "discord": "sigtrent",
+            "url": "https://www.sigtrent.com/"
+        }
+    ],
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "12",
+    "compatibility": {
+        "minimum": "9",
+        "verified": "12"
+    },
+    "packs": [
+        {
+            "name": "module-creatures",
+            "label": "Module Creatures",
+            "path": "./packs/creatures.db",
+            "type": "Actor",
+            "system": "dnd5e"
+        },
+        {
+            "name": "module-items",
+            "label": "Module Items",
+            "path": "./packs/items.db",
+            "type": "Item",
+            "system": "dnd5e"
+        },
+        {
+            "name": "module-scenes",
+            "label": "Module Scenes",
+            "path": "./packs/scenes.db",
+            "type": "Scene"
+        },
+        {
+            "name": "module-journal-entries",
+            "label": "Module Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "module-macros",
+            "label": "Module Macros",
+            "path": "./packs/macros.db",
+            "type": "Macro"
+        },
+        {
+            "name": "module-roll-tables",
+            "label": "Module Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "type": "RollTable"
+        },
+        {
+            "name": "module-playlists",
+            "label": "Module Playlists",
+            "path": "./packs/playlists.db",
+            "type": "Playlist"
+        },
+        {
+            "name": "module-adventures",
+            "label": "Module Adventures",
+            "path": "./packs/adventures.db",
+            "type": "Adventure"
+        }
+    ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  }
