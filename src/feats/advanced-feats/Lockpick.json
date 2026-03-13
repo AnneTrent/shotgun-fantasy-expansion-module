@@ -1,15 +1,15 @@
 {
-  "name": "Quickloader",
+  "name": "Lockpick",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/quickloader.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/lockpick.svg",
   "system": {
     "description": {
-      "value": "<p>You have mastered the art of reloading your weapon.</p><ul><li><p>You can take a Bonus action to ignore the Slow-Firing property of weapons with which you are proficient.</p></li></ul>",
+      "value": "<p>You are especially adept at picking mechanical locks.</p><ul><li><p>You have Advantage on Sleight of Hand checks made to pick mechanical locks of all types, as long as you have a set of lockpicks on hand.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
     "activation": {
-      "type": "bonus",
+      "type": "passive",
       "condition": ""
     },
     "resource": {
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "quickloader"
+      "value": "lockpick"
     },
     "type": {
       "value": "minor",
-      "category": "basic"
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "ec5bb4fa60c36afd",
-  "_key": "!items!ec5bb4fa60c36afd"
+  "_id": "1e0e65fcefd72a4d",
+  "_key": "!items!1e0e65fcefd72a4d"
 }

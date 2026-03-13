@@ -1,10 +1,10 @@
 {
-  "name": "Cleric Training",
+  "name": "Gambler",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/cleric-training.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/gambler.svg",
   "system": {
     "description": {
-      "value": "<p><strong>Prerequisite:</strong> Spellcaster Hero or Spellcaster Hero Training, Level 4+, Not a Cleric</p><p>You have sought out and obtained the blessings of a divine power, making you a Cleric of their faith.</p><ul><li><p>You gain Proficiency and expertise in Religion if you do not already have them.</p></li><li><p>You gain the Divine Spellcasting Talent from the Cleric class and choose a Religion to follow.</p></li><li><p>You are limited to a maximum Spell Rank of 2 when casting as a Cleric.</p></li></ul>",
+      "value": "<p>You have spent many hours gambling and have learned many tricks for coming out ahead.</p><ul><li><p>You gain Advantage on Ability Checks made while playing gambling games to play skillfully, to cheat, and to detect cheating.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "cleric-training"
+      "value": "gambler"
     },
     "type": {
-      "value": "major",
-      "category": "multiclass"
+      "value": "minor",
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "10db1b42891db10c",
-  "_key": "!items!10db1b42891db10c"
+  "_id": "e43fdde4891096a8",
+  "_key": "!items!e43fdde4891096a8"
 }

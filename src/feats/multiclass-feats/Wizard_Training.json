@@ -1,10 +1,10 @@
 {
-  "name": "Gambler",
+  "name": "Wizard Training",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/gambler.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/wizard-training.svg",
   "system": {
     "description": {
-      "value": "<p>You have spent many hours gambling and have learned many tricks for coming out ahead.</p><ul><li><p>You gain Advantage on Ability Checks made while playing gambling games to play skillfully, to cheat, and to detect cheating.</p></li></ul>",
+      "value": "<p><strong>Prerequisite:</strong> Spellcaster Hero or Spellcaster Hero Training, Level 4+, Not a Wizard</p><p>You have become a novice wizard in one of the great colleges of wizardry.</p><ul><li><p>You gain expertise in Arcana if you do not already have it.</p></li><li><p>You gain the College of Magic Talent from the Wizard class.</p></li><li><p>You gain the Spellbook Casting Talent from the Wizard class.</p></li><li><p>You are limited to a maximum Spell Rank of 2 when casting as a Wizard.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "gambler"
+      "value": "wizard-training"
     },
     "type": {
-      "value": "minor",
-      "category": "basic"
+      "value": "major",
+      "category": "multiclass"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "wnN7dpp1Y9nwjd8L",
   "sort": 0,
-  "_id": "e43fdde4891096a8",
-  "_key": "!items!e43fdde4891096a8"
+  "_id": "f7e42ef36d0d0690",
+  "_key": "!items!f7e42ef36d0d0690"
 }

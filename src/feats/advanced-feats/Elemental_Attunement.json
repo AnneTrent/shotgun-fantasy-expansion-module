@@ -1,0 +1,56 @@
+{
+  "name": "Elemental Attunement",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/elemental-attunement.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Channeler</p><p>You have attuned your magical Aura to one of the combat elements.</p><ul><li><p>Choose one Damage type from Acid, Cold, Electricity, Fire, Psychic, Necrotic, and Radiant. Increase the Damage Dice from your Spell Attacks dealing that type of Damage by one dice step.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "elemental-attunement"
+    },
+    "type": {
+      "value": "major",
+      "category": "advanced"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "UQvSyUflwBMm9NuW",
+  "sort": 0,
+  "_id": "5e68015e5b43cd93",
+  "_key": "!items!5e68015e5b43cd93"
+}

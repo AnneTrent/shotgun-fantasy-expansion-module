@@ -1,10 +1,10 @@
 {
-  "name": "Quick Study",
+  "name": "Agile Hero Training",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/quick-study.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/agile-hero-training.svg",
   "system": {
     "description": {
-      "value": "<p><strong>Prerequisite:</strong> Spellbook Casting</p><p>You have developed a technique for preparing your spells quickly and efficiently.</p><ul><li><p>After completing a Short Rest, you can change a number of Prepared spells equal to your Spellcasting Ability modifier.</p></li></ul>",
+      "value": "<p><strong>Prerequisite:</strong> Not an Agile Hero archetype, Dexterity 13+, Level 2+</p><p>You have trained your reflexes to a razor's edge. Your movements are both swift and elegant.</p><ul><li><p>You gain Basic Equipment proficiency.</p></li><li><p>Choose one from Acrobatics, Sleight of Hand, Stealth, and Vehicles. You gain Proficiency in the chosen Skill.</p></li><li><p>You can take the Dash or Disengage action as a Bonus action.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "quick-study"
+      "value": "agile-hero-training"
     },
     "type": {
-      "value": "minor",
-      "category": "basic"
+      "value": "major",
+      "category": "multiclass"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "wnN7dpp1Y9nwjd8L",
   "sort": 0,
-  "_id": "346e381dfca5e4e0",
-  "_key": "!items!346e381dfca5e4e0"
+  "_id": "80d394bfc7983765",
+  "_key": "!items!80d394bfc7983765"
 }

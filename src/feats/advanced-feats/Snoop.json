@@ -1,10 +1,10 @@
 {
-  "name": "Open Soul",
+  "name": "Snoop",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/open-soul.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/snoop.svg",
   "system": {
     "description": {
-      "value": "<p><strong>Prerequisite:</strong> Channeling</p><p>You have opened your soul to the winds of magic.</p><ul><li><p>Your maximum mana is increased by an amount equal to your Proficiency bonus.</p></li></ul>",
+      "value": "<p>You love finding secrets and have studied various methods to find hidden doors, panels, and other hiding places.</p><ul><li><p>You gain Advantage on Investigation checks made to find and open secret doors, hidden panels, and similar devices.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "open-soul"
+      "value": "snoop"
     },
     "type": {
       "value": "minor",
-      "category": "basic"
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "3a7f85c602abda1f",
-  "_key": "!items!3a7f85c602abda1f"
+  "_id": "2c521cff30a35355",
+  "_key": "!items!2c521cff30a35355"
 }

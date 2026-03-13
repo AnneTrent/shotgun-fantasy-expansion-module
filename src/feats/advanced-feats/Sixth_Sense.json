@@ -1,10 +1,10 @@
 {
-  "name": "Snoop",
+  "name": "Sixth Sense",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/snoop.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/sixth-sense.svg",
   "system": {
     "description": {
-      "value": "<p>You love finding secrets and have studied various methods to find hidden doors, panels, and other hiding places.</p><ul><li><p>You gain Advantage on Investigation checks made to find and open secret doors, hidden panels, and similar devices.</p></li></ul>",
+      "value": "<p>You have developed your inner eye and are able to see magical Auras.</p><ul><li><p>You can see the Auras of creatures, objects, and places.</p></li><li><p>You can use Investigation or Perception when reading an Aura instead of Arcana.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "snoop"
+      "value": "sixth-sense"
     },
     "type": {
       "value": "minor",
-      "category": "basic"
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "2c521cff30a35355",
-  "_key": "!items!2c521cff30a35355"
+  "_id": "e9eefef75533a3d6",
+  "_key": "!items!e9eefef75533a3d6"
 }

@@ -1,10 +1,10 @@
 {
-  "name": "Cantrip Hobbyist",
+  "name": "Equipment Training",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/cantrip-hobbyist.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/equipment-training.svg",
   "system": {
     "description": {
-      "value": "<p>You have learned to cast a simple spell.</p><ul><li><p>You learn one Rank 0 spell. You do not need to prepare this spell to cast it. You cannot enhance this spell unless you have a Talent that allows casting spells of Rank 1 or higher and the Mana needed to cast them.</p></li></ul>",
+      "value": "<p>You have trained in the tools of warfare and personal combat.</p><ul><li><p>You gain Basic Equipment proficiency if you don't already have it.</p></li><li><p>You gain either Historical Equipment or Improvised Equipment proficiency.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,7 +26,7 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "cantrip-hobbyist"
+      "value": "equipment-training"
     },
     "type": {
       "value": "minor",
@@ -40,7 +40,7 @@
   "flags": {},
   "_stats": {
     "systemId": "everyday-heroes",
-    "systemVersion": "0.4.8",
+    "systemVersion": "0.8.4",
     "coreVersion": "13.351",
     "createdTime": null,
     "modifiedTime": null,
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "l92jwBkarN39Dv4L",
   "sort": 0,
-  "_id": "0d0d4803c79b45d9",
-  "_key": "!items!0d0d4803c79b45d9"
+  "_id": "bMCHQ1lByF6BEaVU",
+  "_key": "!items!bMCHQ1lByF6BEaVU"
 }

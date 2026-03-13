@@ -1,10 +1,10 @@
 {
-  "name": "Strong Hero Training",
+  "name": "Cleric Training, Advanced",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/strong-hero-training.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/cleric-training-advanced.svg",
   "system": {
     "description": {
-      "value": "<p><strong>Prerequisite:</strong> Not a Strong Hero archetype, Strength 13+, Level 2+</p><p>You have learned how to use your strength to focus an aggressive offense.</p><ul><li><p>You gain Basic Equipment proficiency.</p></li><li><p>You gain Proficiency in one of the following skills: Athletics, Acrobatics, or Endurance.</p></li><li><p>Before making an Attack, you can declare that you are being Reckless. You gain Advantage on all Melee weapon Attack Rolls, but all opponents attacking you have Advantage on their Attack Rolls. This lasts until the start of your next turn.</p></li></ul>",
+      "value": "<p><strong>Prerequisite:</strong> Cleric Training, Level 8+</p><p>You have grown in your faith, attaining the rank of Priest and the powers that come with it.</p><ul><li><p>You gain the rank of Priest in your Religion and gain the corresponding Priest talents.</p></li><li><p>If you don't have enough Mana to cast a spell, you can spend your Inspiration to cast any spell from your religion at a Rank at which you are capable of casting.</p></li><li><p>You are limited to a maximum Spell Rank of 4 when casting as a Cleric.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,7 +26,7 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "strong-hero-training"
+      "value": "cleric-training-advanced"
     },
     "type": {
       "value": "major",
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "wnN7dpp1Y9nwjd8L",
   "sort": 0,
-  "_id": "2b6592aec510073a",
-  "_key": "!items!2b6592aec510073a"
+  "_id": "e0e7f2868886a7ae",
+  "_key": "!items!e0e7f2868886a7ae"
 }

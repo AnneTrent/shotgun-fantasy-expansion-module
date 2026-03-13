@@ -1,15 +1,15 @@
 {
-  "name": "With One Eye Open",
+  "name": "Quickloader",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/with-one-eye-open.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/quickloader.svg",
   "system": {
     "description": {
-      "value": "<p>Even in sleep, you remain acutely aware of your surroundings, awakening to any danger.</p><ul><li><p>You can use your Passive Perception while sleeping to detect anything that might be potentially dangerous or of interest to you.</p></li><li><p>If you successfully perceive anything you think could be dangerous while naturally asleep, you can awaken immediately.</p></li></ul>",
+      "value": "<p>You have mastered the art of reloading your weapon.</p><ul><li><p>You can take a Bonus action to ignore the Slow-Firing property of weapons with which you are proficient.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
     "activation": {
-      "type": "passive",
+      "type": "bonus",
       "condition": ""
     },
     "resource": {
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "with-one-eye-open"
+      "value": "quickloader"
     },
     "type": {
       "value": "minor",
-      "category": "basic"
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "3a167fad017caf75",
-  "_key": "!items!3a167fad017caf75"
+  "_id": "ec5bb4fa60c36afd",
+  "_key": "!items!ec5bb4fa60c36afd"
 }

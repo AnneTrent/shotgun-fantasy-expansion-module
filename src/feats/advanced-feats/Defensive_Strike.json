@@ -1,16 +1,16 @@
 {
-  "name": "Sixth Sense",
+  "name": "Defensive Strike",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/sixth-sense.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/defensive-strike.svg",
   "system": {
     "description": {
-      "value": "<p>You have developed your inner eye and are able to see magical Auras.</p><ul><li><p>You can see the Auras of creatures, objects, and places.</p></li><li><p>You can use Investigation or Perception when reading an Aura instead of Arcana.</p></li></ul>",
+      "value": "<p>You are adept at luring enemies in close and striking when they least expect it.</p><ul><li><p>When benefiting from the Dodge action, if an opponent misses you with a Melee attack, you can make an Opportunity attack against them.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
     "activation": {
-      "type": "passive",
-      "condition": ""
+      "type": "reaction",
+      "condition": "When an opponent misses you with a Melee attack while you are Dodging"
     },
     "resource": {
       "amount": 0,
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "sixth-sense"
+      "value": "defensive-strike"
     },
     "type": {
       "value": "minor",
-      "category": "basic"
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "e9eefef75533a3d6",
-  "_key": "!items!e9eefef75533a3d6"
+  "_id": "dea48ea84653bc64",
+  "_key": "!items!dea48ea84653bc64"
 }

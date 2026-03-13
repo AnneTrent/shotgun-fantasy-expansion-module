@@ -1,10 +1,10 @@
 {
-  "name": "Fighter Training, Advanced",
+  "name": "Cleric Training",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/fighter-training-advanced.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/cleric-training.svg",
   "system": {
     "description": {
-      "value": "<p><strong>Prerequisite:</strong> Fighter Training, Level 8+</p><p>You have honed your combat skills to a razor's edge, allowing you to push beyond your usual limits and master the tools of warfare.</p><ul><li><p>By pushing yourself to the limit, you can take an additional Action during your turn. You can do this only once before you finish a Short or Long Rest.</p></li><li><p>Gain the Equipment Mastery talent from the Fighter class, making a single selection of the listed masteries.</p></li></ul>",
+      "value": "<p><strong>Prerequisite:</strong> Spellcaster Hero or Spellcaster Hero Training, Level 4+, Not a Cleric</p><p>You have sought out and obtained the blessings of a divine power, making you a Cleric of their faith.</p><ul><li><p>You gain Proficiency and expertise in Religion if you do not already have them.</p></li><li><p>You gain the Divine Spellcasting Talent from the Cleric class and choose a Religion to follow.</p></li><li><p>You are limited to a maximum Spell Rank of 2 when casting as a Cleric.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,7 +26,7 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "fighter-training-advanced"
+      "value": "cleric-training"
     },
     "type": {
       "value": "major",
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "wnN7dpp1Y9nwjd8L",
   "sort": 0,
-  "_id": "dec2e4738b7254ed",
-  "_key": "!items!dec2e4738b7254ed"
+  "_id": "10db1b42891db10c",
+  "_key": "!items!10db1b42891db10c"
 }

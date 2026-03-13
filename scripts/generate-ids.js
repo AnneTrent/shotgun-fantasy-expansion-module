@@ -1,15 +1,29 @@
 import { randomBytes } from "crypto";
-import { readdirSync, readFileSync, writeFileSync } from "fs";
-import { join, extname } from "path";
+import { readdirSync, readFileSync, writeFileSync, renameSync } from "fs";
+import { join, extname, basename, dirname } from "path";
 
-// Folders to scan for feat JSON files
-const SCAN_DIRS = ["src/feats"];
+// All source directories to scan — keep in sync with PACKS in build.js
+const SCAN_DIRS = [
+  "src/feats",
+  "src/archetypes-classes",
+  "src/backgrounds-professions",
+  "src/plans-tricks",
+  "src/equipment",
+];
+
+// Full base62 charset — matches Foundry's own ID generation exactly
+const BASE62 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
 function generateId() {
-  return randomBytes(8).toString("hex").slice(0, 16);
+  const bytes = randomBytes(16);
+  let id = "";
+  for (let i = 0; i < 16; i++) {
+    id += BASE62[bytes[i] % 62];
+  }
+  return id;
 }
 
-function processFile(filePath) {
+function processFolderFile(filePath) {
   const raw = readFileSync(filePath, "utf-8");
   let data;
 
@@ -20,9 +34,34 @@ function processFile(filePath) {
     return;
   }
 
-  // Skip folder entries and non-items
-  if (data._key && data._key.startsWith("!folders!")) {
-    console.log(`⏭️  Skipping folder entry: ${filePath}`);
+  // Skip if already has a valid _id
+  if (data._id && data._id !== null) {
+    console.log(`✅ Folder already has ID: ${data.name} (${data._id})`);
+    return;
+  }
+
+  const newId = generateId();
+  data._id = newId;
+  data._key = `!folders!${newId}`;
+
+  writeFileSync(filePath, JSON.stringify(data, null, 2), "utf-8");
+  console.log(`📁 Generated ID for folder: ${data.name} → ${newId}`);
+}
+
+function processFile(filePath) {
+  // Route _folder.json files to their own handler (case-insensitive)
+  if (basename(filePath).toLowerCase() === "_folder.json") {
+    processFolderFile(filePath);
+    return;
+  }
+
+  const raw = readFileSync(filePath, "utf-8");
+  let data;
+
+  try {
+    data = JSON.parse(raw);
+  } catch (err) {
+    console.warn(`⚠️  Skipping ${filePath} — invalid JSON`);
     return;
   }
 
@@ -37,8 +76,17 @@ function processFile(filePath) {
   data._id = newId;
   data._key = `!items!${newId}`;
 
+  // Rename file to include ID suffix matching Foundry convention:
+  // e.g. Fighter_Training.json → Fighter_Training-aBcDeFgHiJkLmNoP.json
+  const dir = dirname(filePath);
+  const oldName = basename(filePath, ".json");
+  const newFileName = `${oldName}-${newId}.json`;
+  const newFilePath = join(dir, newFileName);
+
   writeFileSync(filePath, JSON.stringify(data, null, 2), "utf-8");
-  console.log(`🆔 Generated ID for: ${data.name} → ${newId}`);
+  renameSync(filePath, newFilePath);
+
+  console.log(`🆔 Generated ID for: ${data.name} → ${newId} (renamed to ${newFileName})`);
 }
 
 function scanDir(dir) {
@@ -53,7 +101,7 @@ function scanDir(dir) {
   for (const file of files) {
     const fullPath = join(dir, file.name);
     if (file.isDirectory()) {
-      // Skip the eh-reference folder
+      // Skip reference folders
       if (file.name === "eh-reference") {
         console.log(`⏭️  Skipping reference folder: ${fullPath}`);
         continue;
@@ -65,7 +113,7 @@ function scanDir(dir) {
   }
 }
 
-console.log("🔍 Scanning for feats missing IDs...\n");
+console.log("🔍 Scanning for missing IDs...\n");
 for (const dir of SCAN_DIRS) {
   scanDir(dir);
 }

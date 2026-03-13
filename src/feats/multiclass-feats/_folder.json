@@ -1,0 +1,19 @@
+{
+  "name": "Multiclass Feats",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "wnN7dpp1Y9nwjd8L",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.8.4",
+    "coreVersion": "13.351",
+    "createdTime": 1773438158758,
+    "modifiedTime": 1773438158758,
+    "lastModifiedBy": "shotgun-fantasy"
+  },
+  "_key": "!folders!wnN7dpp1Y9nwjd8L"
+}

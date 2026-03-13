@@ -1,10 +1,10 @@
 {
-  "name": "Agile Hero Training",
+  "name": "Clinch",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/agile-hero-training.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/clinch.svg",
   "system": {
     "description": {
-      "value": "<p><strong>Prerequisite:</strong> Not an Agile Hero archetype, Dexterity 13+, Level 2+</p><p>You have trained your reflexes to a razor's edge. Your movements are both swift and elegant.</p><ul><li><p>You gain Basic Equipment proficiency.</p></li><li><p>Choose one from Acrobatics, Sleight of Hand, Stealth, and Vehicles. You gain Proficiency in the chosen Skill.</p></li><li><p>You can take the Dash or Disengage action as a Bonus action.</p></li></ul>",
+      "value": "<p>You have developed techniques for holding your opponents in close quarters without having to use your hands.</p><ul><li><p>You can use the Grapple Special attack without needing a free hand.</p></li><li><p>Opponents you have Grappled have Disadvantage on Melee Attack Rolls targeting you.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "agile-hero-training"
+      "value": "clinch"
     },
     "type": {
-      "value": "major",
-      "category": "multiclass"
+      "value": "minor",
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "80d394bfc7983765",
-  "_key": "!items!80d394bfc7983765"
+  "_id": "c51c43ffc927af51",
+  "_key": "!items!c51c43ffc927af51"
 }

@@ -1,10 +1,10 @@
 {
-  "name": "Elemental Attunement",
+  "name": "Cantrip Hobbyist",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/elemental-attunement.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/cantrip-hobbyist.svg",
   "system": {
     "description": {
-      "value": "<p><strong>Prerequisite:</strong> Channeler</p><p>You have attuned your magical Aura to one of the combat elements.</p><ul><li><p>Choose one Damage type from Acid, Cold, Electricity, Fire, Psychic, Necrotic, and Radiant. Increase the Damage Dice from your Spell Attacks dealing that type of Damage by one dice step.</p></li></ul>",
+      "value": "<p>You have learned to cast a simple spell.</p><ul><li><p>You learn one Rank 0 spell. You do not need to prepare this spell to cast it. You cannot enhance this spell unless you have a Talent that allows casting spells of Rank 1 or higher and the Mana needed to cast them.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,10 +26,10 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "elemental-attunement"
+      "value": "cantrip-hobbyist"
     },
     "type": {
-      "value": "major",
+      "value": "minor",
       "category": "advanced"
     }
   },
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "5e68015e5b43cd93",
-  "_key": "!items!5e68015e5b43cd93"
+  "_id": "0d0d4803c79b45d9",
+  "_key": "!items!0d0d4803c79b45d9"
 }

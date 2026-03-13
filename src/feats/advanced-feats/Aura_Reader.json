@@ -1,16 +1,16 @@
 {
-  "name": "Defensive Strike",
+  "name": "Aura Reader",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/defensive-strike.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/aura-reader.svg",
   "system": {
     "description": {
-      "value": "<p>You are adept at luring enemies in close and striking when they least expect it.</p><ul><li><p>When benefiting from the Dodge action, if an opponent misses you with a Melee attack, you can make an Opportunity attack against them.</p></li></ul>",
+      "value": "<p><strong>Prerequisite:</strong> Proficient in Arcana</p><p>You are especially adept at reading Auras and deciphering their meaning.</p><ul><li><p>You can read an Aura as a bonus action.</p></li><li><p>You have advantage on Arcana checks made to read an Aura.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
     "activation": {
-      "type": "reaction",
-      "condition": "When an opponent misses you with a Melee attack while you are Dodging"
+      "type": "bonus",
+      "condition": ""
     },
     "resource": {
       "amount": 0,
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "defensive-strike"
+      "value": "aura-reader"
     },
     "type": {
       "value": "minor",
-      "category": "basic"
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "dea48ea84653bc64",
-  "_key": "!items!dea48ea84653bc64"
+  "_id": "9f66c353820a21d0",
+  "_key": "!items!9f66c353820a21d0"
 }

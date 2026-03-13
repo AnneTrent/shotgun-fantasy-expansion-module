@@ -1,15 +1,15 @@
 {
-  "name": "Aura Reader",
+  "name": "Quick Study",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/aura-reader.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/quick-study.svg",
   "system": {
     "description": {
-      "value": "<p><strong>Prerequisite:</strong> Proficient in Arcana</p><p>You are especially adept at reading Auras and deciphering their meaning.</p><ul><li><p>You can read an Aura as a bonus action.</p></li><li><p>You have advantage on Arcana checks made to read an Aura.</p></li></ul>",
+      "value": "<p><strong>Prerequisite:</strong> Spellbook Casting</p><p>You have developed a technique for preparing your spells quickly and efficiently.</p><ul><li><p>After completing a Short Rest, you can change a number of Prepared spells equal to your Spellcasting Ability modifier.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
     "activation": {
-      "type": "bonus",
+      "type": "passive",
       "condition": ""
     },
     "resource": {
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "aura-reader"
+      "value": "quick-study"
     },
     "type": {
       "value": "minor",
-      "category": "basic"
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "9f66c353820a21d0",
-  "_key": "!items!9f66c353820a21d0"
+  "_id": "346e381dfca5e4e0",
+  "_key": "!items!346e381dfca5e4e0"
 }

@@ -1,10 +1,10 @@
 {
-  "name": "Haggler",
+  "name": "With One Eye Open",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/haggler.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/with-one-eye-open.svg",
   "system": {
     "description": {
-      "value": "<p>You are well-versed in the art of haggling and allegedly have many adorable children who will surely starve if you don't get the best price.</p><ul><li><p>You have Advantage on Ability checks made to haggle over prices or payment terms.</p></li><li><p>You have Advantage on Ability checks made to accurately assess the market value of goods.</p></li></ul>",
+      "value": "<p>Even in sleep, you remain acutely aware of your surroundings, awakening to any danger.</p><ul><li><p>You can use your Passive Perception while sleeping to detect anything that might be potentially dangerous or of interest to you.</p></li><li><p>If you successfully perceive anything you think could be dangerous while naturally asleep, you can awaken immediately.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "haggler"
+      "value": "with-one-eye-open"
     },
     "type": {
       "value": "minor",
-      "category": "basic"
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "9bb80becac484e0e",
-  "_key": "!items!9bb80becac484e0e"
+  "_id": "3a167fad017caf75",
+  "_key": "!items!3a167fad017caf75"
 }

@@ -1,10 +1,10 @@
 {
-  "name": "Lockpick",
+  "name": "Wizard Training, Advanced",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/lockpick.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/wizard-training-advanced.svg",
   "system": {
     "description": {
-      "value": "<p>You are especially adept at picking mechanical locks.</p><ul><li><p>You have Advantage on Sleight of Hand checks made to pick mechanical locks of all types, as long as you have a set of lockpicks on hand.</p></li></ul>",
+      "value": "<p><strong>Prerequisite:</strong> Wizard Training, Level 8+</p><p>You have become a journeyman wizard in one of the great colleges of wizardry.</p><ul><li><p>You gain the rank of Journeyman in your College of magic and gain the corresponding Journeyman Talent.</p></li><li><p>You can gain either Skill Training, Advanced Skill Training, or Language Expert.</p></li><li><p>You are limited to a maximum Spell Rank of 4 when casting as a Wizard.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "lockpick"
+      "value": "wizard-training-advanced"
     },
     "type": {
-      "value": "minor",
-      "category": "basic"
+      "value": "major",
+      "category": "multiclass"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "wnN7dpp1Y9nwjd8L",
   "sort": 0,
-  "_id": "1e0e65fcefd72a4d",
-  "_key": "!items!1e0e65fcefd72a4d"
+  "_id": "7c509a7390c4f72f",
+  "_key": "!items!7c509a7390c4f72f"
 }

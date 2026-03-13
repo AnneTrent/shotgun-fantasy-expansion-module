@@ -1,10 +1,10 @@
 {
-  "name": "Clinch",
+  "name": "Haggler",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/clinch.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/haggler.svg",
   "system": {
     "description": {
-      "value": "<p>You have developed techniques for holding your opponents in close quarters without having to use your hands.</p><ul><li><p>You can use the Grapple Special attack without needing a free hand.</p></li><li><p>Opponents you have Grappled have Disadvantage on Melee Attack Rolls targeting you.</p></li></ul>",
+      "value": "<p>You are well-versed in the art of haggling and allegedly have many adorable children who will surely starve if you don't get the best price.</p><ul><li><p>You have Advantage on Ability checks made to haggle over prices or payment terms.</p></li><li><p>You have Advantage on Ability checks made to accurately assess the market value of goods.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "clinch"
+      "value": "haggler"
     },
     "type": {
       "value": "minor",
-      "category": "basic"
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "c51c43ffc927af51",
-  "_key": "!items!c51c43ffc927af51"
+  "_id": "9bb80becac484e0e",
+  "_key": "!items!9bb80becac484e0e"
 }

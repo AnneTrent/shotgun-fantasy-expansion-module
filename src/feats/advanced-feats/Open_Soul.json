@@ -1,10 +1,10 @@
 {
-  "name": "Wizard Training",
+  "name": "Open Soul",
   "type": "feat",
-  "img": "modules/shotgun-fantasy/artwork/icons/feats/wizard-training.svg",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/open-soul.svg",
   "system": {
     "description": {
-      "value": "<p><strong>Prerequisite:</strong> Spellcaster Hero or Spellcaster Hero Training, Level 4+, Not a Wizard</p><p>You have become a novice wizard in one of the great colleges of wizardry.</p><ul><li><p>You gain expertise in Arcana if you do not already have it.</p></li><li><p>You gain the College of Magic Talent from the Wizard class.</p></li><li><p>You gain the Spellbook Casting Talent from the Wizard class.</p></li><li><p>You are limited to a maximum Spell Rank of 2 when casting as a Wizard.</p></li></ul>",
+      "value": "<p><strong>Prerequisite:</strong> Channeling</p><p>You have opened your soul to the winds of magic.</p><ul><li><p>Your maximum mana is increased by an amount equal to your Proficiency bonus.</p></li></ul>",
       "chat": "",
       "source": "Shotgun Fantasy"
     },
@@ -26,11 +26,11 @@
     },
     "advancement": [],
     "identifier": {
-      "value": "wizard-training"
+      "value": "open-soul"
     },
     "type": {
-      "value": "major",
-      "category": "multiclass"
+      "value": "minor",
+      "category": "advanced"
     }
   },
   "effects": [],
@@ -49,8 +49,8 @@
     "duplicateSource": null,
     "exportSource": null
   },
-  "folder": null,
+  "folder": "UQvSyUflwBMm9NuW",
   "sort": 0,
-  "_id": "f7e42ef36d0d0690",
-  "_key": "!items!f7e42ef36d0d0690"
+  "_id": "3a7f85c602abda1f",
+  "_key": "!items!3a7f85c602abda1f"
 }
