@@ -1,0 +1,56 @@
+{
+  "name": "FEAT_NAME",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/FEAT_ICON.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> PREREQUISITE_OR_DELETE_THIS_LINE</p><p>FEAT_DESCRIPTION</p><ul><li><p>BENEFIT_1</p></li><li><p>BENEFIT_2</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "ACTIVATION_TYPE",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "feat-name-lowercase-with-hyphens"
+    },
+    "type": {
+      "value": "MINOR_OR_MAJOR",
+      "category": "BASIC_ADVANCED_OR_MULTICLASS"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": null,
+  "_key": null
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Snoop",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/snoop.svg",
+  "system": {
+    "description": {
+      "value": "<p>You love finding secrets and have studied various methods to find hidden doors, panels, and other hiding places.</p><ul><li><p>You gain Advantage on Investigation checks made to find and open secret doors, hidden panels, and similar devices.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "snoop"
+    },
+    "type": {
+      "value": "minor",
+      "category": "basic"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "2c521cff30a35355",
+  "_key": "!items!2c521cff30a35355"
+}

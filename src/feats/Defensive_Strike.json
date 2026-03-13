@@ -1,0 +1,56 @@
+{
+  "name": "Defensive Strike",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/defensive-strike.svg",
+  "system": {
+    "description": {
+      "value": "<p>You are adept at luring enemies in close and striking when they least expect it.</p><ul><li><p>When benefiting from the Dodge action, if an opponent misses you with a Melee attack, you can make an Opportunity attack against them.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "reaction",
+      "condition": "When an opponent misses you with a Melee attack while you are Dodging"
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "defensive-strike"
+    },
+    "type": {
+      "value": "minor",
+      "category": "basic"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "dea48ea84653bc64",
+  "_key": "!items!dea48ea84653bc64"
+}

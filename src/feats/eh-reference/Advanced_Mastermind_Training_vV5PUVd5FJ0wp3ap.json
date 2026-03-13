@@ -1,0 +1,126 @@
+{
+  "name": "Advanced Mastermind Training",
+  "type": "feat",
+  "img": "systems/everyday-heroes/artwork/icons/classes/mastermind.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Not a mastermind (class), @UUID[Compendium.everyday-heroes.feats.89n6BZEK8HJFr9Jf]{Mastermind Training} feat, Level 8+</p><p>You have devised plans within plans within plans. How about two more plans?</p><ul><li><p>Choose either Investigation or Social Sciences. You gain expertise in the chosen skill.</p></li><li><p>You gain an additional 1 Genius point.</p></li><li><p>You learn 2 additional plans from the mastermind or shared plan list.</p></li><li><p>You can only use mastermind plan enhancements up to Level 5.</p></li><li><p>If you are not a Smart Hero (archetype), you can only use shared plan enhancements up to Level 5.</p></li></ul>",
+      "chat": "",
+      "source": "Core Rulebook"
+    },
+    "activation": {
+      "type": "",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "formula": "",
+      "recovery": ""
+    },
+    "advancement": [
+      {
+        "_id": "sVvpBlzvybZvGoIO",
+        "_type": "Trait",
+        "identifier": "",
+        "configuration": {
+          "type": "skill",
+          "expertise": false,
+          "fixed": [],
+          "points": 1,
+          "choices": [
+            "inve",
+            "socs"
+          ]
+        },
+        "level": 8,
+        "flags": {},
+        "title": ""
+      }
+    ],
+    "identifier": {
+      "value": "advanced-mastermind-training"
+    },
+    "type": {
+      "value": "",
+      "category": "multiclass"
+    }
+  },
+  "effects": [
+    {
+      "origin": "Compendium.everyday-heroes.feats.vV5PUVd5FJ0wp3ap",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "uAm0nhawiHEC2ldq",
+      "changes": [
+        {
+          "key": "system.scale.genius.value",
+          "mode": 2,
+          "value": "+1"
+        },
+        {
+          "key": "system.details.limits.plan.formula",
+          "mode": 2,
+          "value": "+2"
+        }
+      ],
+      "tint": "#ffffff",
+      "transfer": true,
+      "flags": {
+        "core": {}
+      },
+      "name": "Advanced Mastermind Training",
+      "description": "",
+      "statuses": [],
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.everyday-heroes.feats.89n6BZEK8HJFr9Jf.ActiveEffect.IW9751pkJcSfp9KU",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "img": "systems/everyday-heroes/artwork/icons/classes/mastermind.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!vV5PUVd5FJ0wp3ap.uAm0nhawiHEC2ldq"
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.5.0",
+    "coreVersion": "13.351",
+    "createdTime": 1680041483160,
+    "modifiedTime": 1705442301415,
+    "lastModifiedBy": "everyday00heroes",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": "kPmDsCMMdrZbWPUN",
+  "sort": 200000,
+  "_id": "vV5PUVd5FJ0wp3ap",
+  "_key": "!items!vV5PUVd5FJ0wp3ap"
+}

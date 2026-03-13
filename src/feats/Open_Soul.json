@@ -1,0 +1,56 @@
+{
+  "name": "Open Soul",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/open-soul.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Channeling</p><p>You have opened your soul to the winds of magic.</p><ul><li><p>Your maximum mana is increased by an amount equal to your Proficiency bonus.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "open-soul"
+    },
+    "type": {
+      "value": "minor",
+      "category": "basic"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "3a7f85c602abda1f",
+  "_key": "!items!3a7f85c602abda1f"
+}

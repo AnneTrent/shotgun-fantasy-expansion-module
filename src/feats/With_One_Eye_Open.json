@@ -1,0 +1,56 @@
+{
+  "name": "With One Eye Open",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/with-one-eye-open.svg",
+  "system": {
+    "description": {
+      "value": "<p>Even in sleep, you remain acutely aware of your surroundings, awakening to any danger.</p><ul><li><p>You can use your Passive Perception while sleeping to detect anything that might be potentially dangerous or of interest to you.</p></li><li><p>If you successfully perceive anything you think could be dangerous while naturally asleep, you can awaken immediately.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "with-one-eye-open"
+    },
+    "type": {
+      "value": "minor",
+      "category": "basic"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "3a167fad017caf75",
+  "_key": "!items!3a167fad017caf75"
+}

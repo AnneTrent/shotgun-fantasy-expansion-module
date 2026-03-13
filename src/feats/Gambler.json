@@ -1,0 +1,56 @@
+{
+  "name": "Gambler",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/gambler.svg",
+  "system": {
+    "description": {
+      "value": "<p>You have spent many hours gambling and have learned many tricks for coming out ahead.</p><ul><li><p>You gain Advantage on Ability Checks made while playing gambling games to play skillfully, to cheat, and to detect cheating.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "gambler"
+    },
+    "type": {
+      "value": "minor",
+      "category": "basic"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "e43fdde4891096a8",
+  "_key": "!items!e43fdde4891096a8"
+}

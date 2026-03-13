@@ -1,0 +1,56 @@
+{
+  "name": "Quick Study",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/quick-study.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Spellbook Casting</p><p>You have developed a technique for preparing your spells quickly and efficiently.</p><ul><li><p>After completing a Short Rest, you can change a number of Prepared spells equal to your Spellcasting Ability modifier.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "passive",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "quick-study"
+    },
+    "type": {
+      "value": "minor",
+      "category": "basic"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "346e381dfca5e4e0",
+  "_key": "!items!346e381dfca5e4e0"
+}
