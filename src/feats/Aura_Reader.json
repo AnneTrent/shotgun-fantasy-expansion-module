@@ -1,0 +1,56 @@
+{
+  "name": "Aura Reader",
+  "type": "feat",
+  "img": "modules/shotgun-fantasy/artwork/icons/feats/aura-reader.svg",
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Proficient in Arcana</p><p>You are especially adept at reading Auras and deciphering their meaning.</p><ul><li><p>You can read an Aura as a bonus action.</p></li><li><p>You have advantage on Arcana checks made to read an Aura.</p></li></ul>",
+      "chat": "",
+      "source": "Shotgun Fantasy"
+    },
+    "activation": {
+      "type": "bonus",
+      "condition": ""
+    },
+    "resource": {
+      "amount": 0,
+      "target": "",
+      "type": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "period": "",
+      "recovery": "",
+      "formula": ""
+    },
+    "advancement": [],
+    "identifier": {
+      "value": "aura-reader"
+    },
+    "type": {
+      "value": "minor",
+      "category": "basic"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "everyday-heroes",
+    "systemVersion": "0.4.8",
+    "coreVersion": "13.351",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "sort": 0,
+  "_id": "9f66c353820a21d0",
+  "_key": "!items!9f66c353820a21d0"
+}

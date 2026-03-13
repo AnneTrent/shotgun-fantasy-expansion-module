@@ -1,0 +1,6 @@
+# Compiled compendium packs (build output)
+packs/
+
+# Keep empty folders tracked
+!packs/.gitkeep
+!packs/feats/.gitkeep
