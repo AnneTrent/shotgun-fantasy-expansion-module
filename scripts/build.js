@@ -35,6 +35,7 @@ async function build() {
   run("node scripts/generate-ids.js");
 
   // Step 2 — Pack all compendiums (skips packs whose src directory doesn't exist yet)
+  // Note: --recursive tells the CLI to walk subdirectories for folder-organised packs
   console.log("\n📦 Step 2: Packing compendiums...");
   for (const pack of PACKS) {
     if (!existsSync(pack.in)) {
@@ -42,7 +43,7 @@ async function build() {
       continue;
     }
     console.log(`\n  📂 Packing: ${pack.name}`);
-    run(`fvtt package pack ${pack.name} --in "${pack.in}" --out "${pack.out}" -n ${pack.name} --folders`);
+    run(`fvtt package pack ${pack.name} --in "${pack.in}" --out "${pack.out}" -n ${pack.name} --recursive`);
   }
 
   // Step 3 — Git commit and push
